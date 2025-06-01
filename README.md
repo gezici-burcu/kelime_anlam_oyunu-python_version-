@@ -1,28 +1,28 @@
-# 🧠 Kelime Anlam Oyunu (Python Versiyonu)
+# 🧠 Word Meaning Game (Python Version)
 
-Bu proje, kullanıcıların kelime anlamlarını tahmin ederek öğrenmesini sağlayan bir **Python tabanlı konsol + Kivy** uygulamasıdır.
+This project is a **Python-based console + Kivy** application that helps users learn word meanings by guessing.
 
-## 🎯 Amaç
+## 🎯 Purpose
 
-Rastgele gösterilen bir kelimenin anlamını tahmin ederek doğru cevaplar toplamak. Doğru/yanlış cevaplarda sesli bildirim verir. Skorlar `scores.txt` dosyasına kaydedilir.
-
----
-
-## 🛠️ Kullanılan Teknolojiler
-
-- 🐍 Python 3
-- 🎛️ Kivy (görsel arayüz için)
-- 🔊 Ses dosyası oynatımı (WAV formatında)
-- 📄 Dosya işlemleri (kelime listesi, skor kaydı)
+The goal is to guess the meaning of randomly shown words. The app gives audio feedback for correct/incorrect answers. Scores are saved in a `scores.txt` file.
 
 ---
 
-## 📂 Dosya Yapısı
+## 🛠️ Technologies Used
+
+- 🐍 Python 3  
+- 🎛️ Kivy (for GUI)  
+- 🔊 Audio playback (WAV format)  
+- 📄 File operations (word list, score recording)
+
+---
+
+## 📂 File Structure
 
 ```plaintext
 kelime_anlam_oyunu-python_version/
-├── main.py             # Ana uygulama dosyası
-├── kelime.kv           # Kivy arayüz tanımı
-├── scores.txt          # Skorlar burada tutulur
-├── dogru.wav           # Doğru cevap sesi
-├── yanlis.wav          # Yanlış cevap sesi
+├── main.py             # Main application file
+├── kelime.kv           # Kivy UI definition
+├── scores.txt          # Stores user scores
+├── dogru.wav           # Sound for correct answers
+├── yanlis.wav          # Sound for wrong answers
